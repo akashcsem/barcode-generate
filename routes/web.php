@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('barcode', 'ProductController@index')->name('barcode.index');
